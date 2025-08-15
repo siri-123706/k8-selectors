@@ -31,8 +31,8 @@ spec:
       #     topologyKey: "kubernetes.io/hostname"
       preferredDuringSchedulingIgnoredDuringExecution:
       - weight: 1
-      podAffinityTerm:
-      - labelSelector:
+        podAffinityTerm:
+          labelSelector:
             matchExpressions:
             - key: app-name
               operator: In
