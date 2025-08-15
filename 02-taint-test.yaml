@@ -16,3 +16,7 @@ spec:
     operator: "Equal"
     value: "value1"
     effect: "NoExecute"
+  - key: "key1"
+    operator: "Equal"
+    value: "value1"
+    effect: "NoSchedule"
