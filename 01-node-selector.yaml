@@ -8,6 +8,6 @@ spec:
   containers:
   - name: nginx
     image: nginx
-    imagePullPolicy: always
+    imagePullPolicy: Always 
   nodeSelector:
     disktype: ssd
