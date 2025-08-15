@@ -18,7 +18,7 @@ spec:
         preference:
           matchExpressions:
           - key: another-node-label-key 
-            operator: In
+            operator: In # matching labels
             values:
             - another-node-label-value
   containers:
